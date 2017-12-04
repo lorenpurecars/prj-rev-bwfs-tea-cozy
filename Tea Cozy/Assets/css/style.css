@@ -1,0 +1,101 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    text-align: center;
+}
+header {
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 1;
+    margin-top: -15px;
+}
+header img {
+    height: 50px;
+    padding-left: 15px;
+}
+.flexcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.everything {
+    opacity: 0.9;
+    padding-top: 45px;
+    width: 1200px;
+    margin: auto;
+}
+#mission {
+    height: 700px;
+    background-image: url(../../Assets/img-mission-background.jpg);
+}
+#mission .content {
+    width: 100%;
+    background-color: black;
+}
+#tea {
+    width: 1000px;
+    margin: auto;
+}
+.teapics {
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.teapics span {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.teapics img {
+    height: 200px;
+    width: 300px;
+}
+.teainfo {
+    align-items: center;
+}
+#locations {
+    background-image: url(../../Assets/img-locations-background.jpg);
+    display: flex;
+    height: 570px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.cards {
+    width: 1100px;
+    display: flex;
+    margin: 0;
+}
+.card {
+    padding: 5px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 200px;
+}
+#footer {
+    height: 200px;
+}
+.copyright {
+    text-align: left;
+}
+nav {
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 20px;
+}
+nav span {
+    padding: 10px;
+}
+a {
+    color: seashell;
+}
